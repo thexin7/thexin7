@@ -2,9 +2,39 @@
 
 🇹🇼 **Windows Kernel Security Engineer** based in **Taiwan**
 
-Anti-Cheat R&D | Reverse Engineering | VT-x/EPT Hypervisor Research
+Anti-Cheat R&D | Reverse Engineering | VT-x/EPT Hypervisor Research | Sandbox Isolation
 
 Currently working on PC game client security — protecting players from the kernel up.
+
+---
+
+### Featured — Sandbox & Isolation Research
+
+Public study forks for Windows sandbox / isolation attack-surface work:
+
+<p>
+  <a href="https://github.com/thexin7/Sandboxie-Plus">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=thexin7&repo=Sandboxie-Plus&theme=tokyonight&hide_border=true" height="150" />
+  </a>
+  <a href="https://github.com/thexin7/sandbox-attacksurface-analysis-tools">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=thexin7&repo=sandbox-attacksurface-analysis-tools&theme=tokyonight&hide_border=true" height="150" />
+  </a>
+</p>
+<p>
+  <a href="https://github.com/thexin7/Windows-Sandbox">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=thexin7&repo=Windows-Sandbox&theme=tokyonight&hide_border=true" height="150" />
+  </a>
+  <a href="https://github.com/thexin7/sandboxie">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=thexin7&repo=sandboxie&theme=tokyonight&hide_border=true" height="150" />
+  </a>
+</p>
+
+| Repo | Upstream | Focus |
+|------|----------|--------|
+| [Sandboxie-Plus](https://github.com/thexin7/Sandboxie-Plus) | [sandboxie-plus/Sandboxie](https://github.com/sandboxie-plus/Sandboxie) | Kernel-mode sandbox / isolation |
+| [sandbox-attacksurface-analysis-tools](https://github.com/thexin7/sandbox-attacksurface-analysis-tools) | [googleprojectzero](https://github.com/googleprojectzero/sandbox-attacksurface-analysis-tools) | Sandbox attack-surface analysis |
+| [Windows-Sandbox](https://github.com/thexin7/Windows-Sandbox) | [microsoft/Windows-Sandbox](https://github.com/microsoft/Windows-Sandbox) | Disposable Windows sandbox desktop |
+| [sandboxie](https://github.com/thexin7/sandboxie) | [sandboxie/sandboxie](https://github.com/sandboxie/sandboxie) | Classic Sandboxie lineage |
 
 ---
 
@@ -24,6 +54,7 @@ Currently working on PC game client security — protecting players from the ker
 
 ![WDM/KMDF](https://img.shields.io/badge/Windows_Kernel-WDM%2FKMDF%2FMinifilter-0078D4?style=flat&logo=windows&logoColor=white)
 ![VT-x/EPT](https://img.shields.io/badge/Hypervisor-VT--x%2FEPT%2FAMD--V-0071C5?style=flat&logo=intel&logoColor=white)
+![Sandbox](https://img.shields.io/badge/Sandbox-Isolation%2FAttack_Surface-2EA44F?style=flat)
 ![UEFI](https://img.shields.io/badge/UEFI-FF6600?style=flat)
 
 **Reverse Engineering**
@@ -52,6 +83,7 @@ Currently working on PC game client security — protecting players from the ker
 ### Current Research
 
 - 🔬 Hypervisor-based memory protection — EPT view switching, VMCS shadowing
+- 🧱 Windows sandbox / isolation internals — Sandboxie, AppContainer, attack surface
 - 🛡️ Anti-cheat architecture R&D for PC game clients
 - 🎮 Source 2 engine internals — CS2 / Deadlock / Dota 2
 - 🤖 AI-assisted reverse engineering workflows — WinDbg MCP, Claude Code
@@ -71,4 +103,4 @@ Currently working on PC game client security — protecting players from the ker
 
 ---
 
-<sub>🇹🇼 Taiwan | Windows Kernel Security | Anti-Cheat R&D</sub>
+<sub>🇹🇼 Taiwan | Windows Kernel Security | Anti-Cheat R&D | Sandbox Isolation</sub>
