@@ -1,36 +1,36 @@
 # thexin7
 
-🇹🇼 Taiwan · **Contact:** [thexix996@gmail.com](mailto:thexix996@gmail.com)
+🇹🇼 Taiwan · [thexix996@gmail.com](mailto:thexix996@gmail.com)
 
-This account publicly documents **sustained interest** in Windows kernel security, sandbox isolation, hypervisor research (VT-x/EPT, AMD-V/SVM), reverse engineering, and anti-cheat security.
+I work on Windows internals: kernel drivers, sandbox/isolation, hypervisors (VT-x/EPT, AMD-V/SVM), reverse engineering, and defensive anti-cheat for PC clients.
 
-Primary tooling: **Claude Code** with IDA / WinDbg / x64dbg for defensive study and analysis practice.
+Repos here are mostly notes and experiments from that work — reading drivers, tracing isolation edges, and poking at hypervisor tricks until the behavior makes sense.
 
----
-
-### About
-
-Public repositories reflect ongoing hands-on interest in:
-
-- Kernel & hypervisor techniques (WDM/KMDF concepts, VT-x/EPT, AMD-V/SVM)
-- Anti-cheat security concepts — studying unauthorized client modification to explore detection/mitigation ideas
-- Sandbox / isolation internals and Windows attack-surface review
-- Driver / sample triage for defensive learning
-
-These are **personal research projects**. They demonstrate sustained technical interest and practice; they do **not** by themselves assert current employment title or employer affiliation.
+Tools I actually use: IDA, WinDbg, x64dbg, and Claude Code.
 
 ---
 
-### Featured research projects
+### What I'm into
+
+- Kernel / hypervisor guts (WDM, KMDF, EPT, SVM)
+- How cheats abuse the client, and what detection can realistically see
+- Sandbox and isolation attack surface on Windows
+- Malicious / suspicious driver triage
+
+Personal research only — not speaking for any employer.
+
+---
+
+### Projects
 
 | Focus | Repo | Notes |
 |------|------|--------|
-| Driver triage | [MalDrvAnalyzer](https://github.com/thexin7/MalDrvAnalyzer) | Malicious driver analyzer / defensive RE |
-| Classic sandbox | [Sandboxie-Classic](https://github.com/thexin7/Sandboxie-Classic) | Windows process isolation research |
-| Attack surface | [Sandbox-AttackSurface](https://github.com/thexin7/Sandbox-AttackSurface) | Windows sandbox attack-surface tooling |
-| Hypervisor RE | [HyperHide-Research](https://github.com/thexin7/HyperHide-Research) | Hypervisor anti-anti-debug research |
-| AMD SVM | [SimpleSvmHook-Research](https://github.com/thexin7/SimpleSvmHook-Research) | Research hypervisor / hooking |
-| EPT hooks | [EPT-Hook-Check](https://github.com/thexin7/EPT-Hook-Check) | EPT hook detection study |
+| Driver triage | [MalDrvAnalyzer](https://github.com/thexin7/MalDrvAnalyzer) | Analyzer for suspicious drivers |
+| Classic sandbox | [Sandboxie-Classic](https://github.com/thexin7/Sandboxie-Classic) | Process isolation research |
+| Attack surface | [Sandbox-AttackSurface](https://github.com/thexin7/Sandbox-AttackSurface) | Tooling around sandbox edges |
+| Hypervisor RE | [HyperHide-Research](https://github.com/thexin7/HyperHide-Research) | Anti-anti-debug via hypervisor |
+| AMD SVM | [SimpleSvmHook-Research](https://github.com/thexin7/SimpleSvmHook-Research) | Small research hypervisor / hooks |
+| EPT hooks | [EPT-Hook-Check](https://github.com/thexin7/EPT-Hook-Check) | Looking for EPT hooks |
 
 <p>
   <a href="https://github.com/thexin7/MalDrvAnalyzer"><img src="https://github-readme-stats.shion.dev/api/pin/?username=thexin7&repo=MalDrvAnalyzer&theme=tokyonight&hide_border=true" height="140" /></a>
@@ -59,12 +59,12 @@ These are **personal research projects**. They demonstrate sustained technical i
 
 ---
 
-### Current focus
+### Right now
 
-- Hypervisor integrity ideas — EPT view switching, hook detection
-- Windows sandbox / isolation attack-surface study
-- Anti-cheat security concepts for PC clients
-- AI-assisted RE workflows — Claude Code, WinDbg MCP, structured decompile triage
+- EPT view switching and hook detection ideas
+- Windows sandbox / isolation edges
+- Anti-cheat questions on the client side
+- Faster RE loops with Claude Code + WinDbg MCP
 
 ---
 
@@ -75,12 +75,3 @@ These are **personal research projects**. They demonstrate sustained technical i
 | GitHub | [github.com/thexin7](https://github.com/thexin7) |
 | Email | [thexix996@gmail.com](mailto:thexix996@gmail.com) |
 | Location | Taiwan |
-
----
-
-<p>
-  <img src="https://github-readme-stats.shion.dev/api?username=thexin7&show_icons=true&theme=tokyonight&hide_border=true" height="150" />
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=thexin7&layout=compact&theme=tokyonight&hide_border=true" height="150" />
-</p>
-
-<sub>Personal security research interest · Contact: thexix996@gmail.com</sub>
