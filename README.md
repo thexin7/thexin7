@@ -2,11 +2,11 @@
 
 🇹🇼 Taiwan · [thexix996@gmail.com](mailto:thexix996@gmail.com)
 
-I work on Windows internals: kernel drivers, sandbox/isolation, hypervisors (VT-x/EPT, AMD-V/SVM), reverse engineering, and defensive anti-cheat for PC clients.
+This account publicly documents **sustained interest** in Windows kernel security, sandbox isolation, hypervisor research (VT-x/EPT, AMD-V/SVM), reverse engineering, and anti-cheat security.
 
-Repos here are mostly notes and experiments from that work — reading drivers, tracing isolation edges, and poking at hypervisor tricks until the behavior makes sense.
+Repos here are personal research notes and experiments — reading drivers, tracing isolation edges, and studying hypervisor tricks until the behavior makes sense. They do **not** by themselves prove current employment.
 
-Tools I actually use: IDA, WinDbg, x64dbg, and Claude Code.
+Tools I use: IDA, WinDbg, x64dbg, and Claude Code.
 
 ---
 
@@ -25,15 +25,15 @@ Personal research only — not speaking for any employer.
 
 | Focus | Repo | Notes |
 |------|------|--------|
-| Driver triage | [MalDrvAnalyzer](https://github.com/thexin7/MalDrvAnalyzer) | Analyzer for suspicious drivers |
-| Classic sandbox | [Sandboxie-Classic](https://github.com/thexin7/Sandboxie-Classic) | Process isolation research |
-| Attack surface | [Sandbox-AttackSurface](https://github.com/thexin7/Sandbox-AttackSurface) | Tooling around sandbox edges |
+| Kernel sandbox | [SandboxiePlus](https://github.com/thexin7/SandboxiePlus) | Process isolation research |
+| Classic sandbox | [Sandboxie-Classic](https://github.com/thexin7/Sandboxie-Classic) | Classic Sandboxie lineage study |
+| Attack surface | [Sandbox-AttackSurface](https://github.com/thexin7/Sandbox-AttackSurface) | Sandbox edge / attack-surface tooling |
 | Hypervisor RE | [HyperHide-Research](https://github.com/thexin7/HyperHide-Research) | Anti-anti-debug via hypervisor |
-| AMD SVM | [SimpleSvmHook-Research](https://github.com/thexin7/SimpleSvmHook-Research) | Small research hypervisor / hooks |
-| EPT hooks | [EPT-Hook-Check](https://github.com/thexin7/EPT-Hook-Check) | Looking for EPT hooks |
+| AMD SVM | [SimpleSvmHook-Research](https://github.com/thexin7/SimpleSvmHook-Research) | Research hypervisor / hooks |
+| EPT hooks | [EPT-Hook-Check](https://github.com/thexin7/EPT-Hook-Check) | EPT hook detection study |
 
 <p>
-  <a href="https://github.com/thexin7/MalDrvAnalyzer"><img src="https://github-readme-stats.shion.dev/api/pin/?username=thexin7&repo=MalDrvAnalyzer&theme=tokyonight&hide_border=true" height="140" /></a>
+  <a href="https://github.com/thexin7/SandboxiePlus"><img src="https://github-readme-stats.shion.dev/api/pin/?username=thexin7&repo=SandboxiePlus&theme=tokyonight&hide_border=true" height="140" /></a>
   <a href="https://github.com/thexin7/Sandbox-AttackSurface"><img src="https://github-readme-stats.shion.dev/api/pin/?username=thexin7&repo=Sandbox-AttackSurface&theme=tokyonight&hide_border=true" height="140" /></a>
 </p>
 <p>
