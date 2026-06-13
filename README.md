@@ -1,21 +1,19 @@
 # thexin7
 
-🇹🇼 Taiwan · [thexix996@gmail.com](mailto:thexix996@gmail.com)
+🇹🇼 Taiwan
 
-This account publicly documents **sustained interest** in Windows kernel security, sandbox isolation, hypervisor research (VT-x/EPT, AMD-V/SVM), reverse engineering, and anti-cheat security.
+This profile documents independent, authorized research and engineering practice in Windows kernel security, sandbox isolation, hypervisor research (VT-x/EPT, AMD-V/SVM), reverse engineering, and anti-cheat security.
 
-Repos here are personal research notes and experiments — reading drivers, tracing isolation edges, and studying hypervisor tricks until the behavior makes sense. They do **not** by themselves prove current employment.
-
-Tools I use: IDA, WinDbg, x64dbg, and Claude Code.
+Some projects reproduce attacker and anti-analysis techniques in controlled lab environments so their behavior can be measured, detected, and mitigated. Public repositories are personal research and study material; they do not by themselves establish employment or ownership of upstream work.
 
 ---
 
 ### What I'm into
 
-- Kernel / hypervisor guts (WDM, KMDF, EPT, SVM)
-- How cheats abuse the client, and what detection can realistically see
+- Kernel / hypervisor internals (WDM, KMDF, EPT, SVM)
+- How cheats and anti-analysis techniques affect a client, and what detection can realistically see
 - Sandbox and isolation attack surface on Windows
-- Malicious / suspicious driver triage
+- Suspicious-driver triage and reverse engineering
 
 Personal research only — not speaking for any employer.
 
@@ -23,14 +21,15 @@ Personal research only — not speaking for any employer.
 
 ### Projects
 
-| Focus | Repo | Notes |
-|------|------|--------|
-| Kernel sandbox | [SandboxiePlus](https://github.com/thexin7/SandboxiePlus) | Process isolation research |
-| Classic sandbox | [Sandboxie-Classic](https://github.com/thexin7/Sandboxie-Classic) | Classic Sandboxie lineage study |
-| Attack surface | [Sandbox-AttackSurface](https://github.com/thexin7/Sandbox-AttackSurface) | Sandbox edge / attack-surface tooling |
-| Hypervisor RE | [HyperHide-Research](https://github.com/thexin7/HyperHide-Research) | Anti-anti-debug via hypervisor |
-| AMD SVM | [SimpleSvmHook-Research](https://github.com/thexin7/SimpleSvmHook-Research) | Research hypervisor / hooks |
-| EPT hooks | [EPT-Hook-Check](https://github.com/thexin7/EPT-Hook-Check) | EPT hook detection study |
+| Attribution              | Repo                                                                        | Scope                                  |
+| ------------------------ | --------------------------------------------------------------------------- | -------------------------------------- |
+| Original project         | [MalDrvAnalyzer](https://github.com/thexin7/MalDrvAnalyzer)                 | Suspicious-driver triage and kernel RE |
+| Study/reference mirror   | [SandboxiePlus](https://github.com/thexin7/SandboxiePlus)                   | Process isolation research             |
+| Study/reference mirror   | [Sandboxie-Classic](https://github.com/thexin7/Sandboxie-Classic)           | Classic Sandboxie lineage study        |
+| Study/reference mirror   | [Sandbox-AttackSurface](https://github.com/thexin7/Sandbox-AttackSurface)   | Sandbox attack-surface analysis        |
+| Study/reference mirror   | [HyperHide-Research](https://github.com/thexin7/HyperHide-Research)         | Hypervisor anti-anti-debug study       |
+| Study/reference mirror   | [SimpleSvmHook-Research](https://github.com/thexin7/SimpleSvmHook-Research) | AMD SVM hypervisor and hooks study     |
+| Study/reference mirror   | [EPT-Hook-Check](https://github.com/thexin7/EPT-Hook-Check)                 | EPT hook detection and integrity study |
 
 <p>
   <a href="https://github.com/thexin7/SandboxiePlus"><img src="https://github-readme-stats.shion.dev/api/pin/?username=thexin7&repo=SandboxiePlus&theme=tokyonight&hide_border=true" height="140" /></a>
@@ -53,7 +52,6 @@ Personal research only — not speaking for any employer.
 ![WDM/KMDF](https://img.shields.io/badge/Windows_Kernel-WDM%2FKMDF-0078D4?style=flat&logo=windows&logoColor=white)
 ![VT-x/EPT](https://img.shields.io/badge/Hypervisor-VT--x%2FEPT%2FSVM-0071C5?style=flat&logo=intel&logoColor=white)
 ![Anti-Cheat](https://img.shields.io/badge/Anti--Cheat_Security-critical?style=flat)
-![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat)
 ![IDA](https://img.shields.io/badge/IDA_Pro-4B0082?style=flat)
 ![WinDbg](https://img.shields.io/badge/WinDbg-0078D4?style=flat&logo=windows&logoColor=white)
 
@@ -64,14 +62,10 @@ Personal research only — not speaking for any employer.
 - EPT view switching and hook detection ideas
 - Windows sandbox / isolation edges
 - Anti-cheat questions on the client side
-- Faster RE loops with Claude Code + WinDbg MCP
+- Repeatable reverse-engineering workflows with IDA and WinDbg
 
 ---
 
 ### Contact
 
-| | |
-|--|--|
-| GitHub | [github.com/thexin7](https://github.com/thexin7) |
-| Email | [thexix996@gmail.com](mailto:thexix996@gmail.com) |
-| Location | Taiwan |
+[github.com/thexin7](https://github.com/thexin7)
