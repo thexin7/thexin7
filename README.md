@@ -25,6 +25,8 @@ My own public project: a **C++ Windows driver-analysis and process-introspection
 
 It deliberately studies how offensive techniques present to defenders (callback tampering, DKOM, token manipulation, hypervisor-assisted concealment, sandbox escape) so the observable behavior can be **detected, verified, and mitigated**. I do **not** publish offensive tooling or attack third-party systems: the output is detections, mitigations, and hardening guidance.
 
+MalDrvAnalyzer is developed and tested only on self-owned lab assets; nothing in the public repository derives from employer or client data.
+
 Related defensive writing lives in [kernel-cve-analysis](https://github.com/thexin7/kernel-cve-analysis): **analysis notes** on publicly-disclosed Windows kernel EoP issues (afd.sys, cng.sys, appid.sys BYOVD) from an anti-cheat / EDR telemetry and hardening standpoint. Consolidated into this public repo in August 2026.
 
 ### Projects
