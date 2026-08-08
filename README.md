@@ -25,13 +25,14 @@ My own public project: a **C++ Windows driver-analysis and process-introspection
 
 It deliberately studies how offensive techniques present to defenders (callback tampering, DKOM, token manipulation, hypervisor-assisted concealment, sandbox escape) so the observable behavior can be **detected, verified, and mitigated**. I do **not** publish offensive tooling or attack third-party systems: the output is detections, mitigations, and hardening guidance.
 
-Related defensive writing lives in [kernel-cve-analysis](https://github.com/thexin7/kernel-cve-analysis): per-CVE notes on publicly-disclosed Windows kernel EoP issues (afd.sys, cng.sys, appid.sys BYOVD) from an anti-cheat / EDR telemetry and hardening standpoint.
+Related defensive writing lives in [kernel-cve-analysis](https://github.com/thexin7/kernel-cve-analysis): **analysis notes** on publicly-disclosed Windows kernel EoP issues (afd.sys, cng.sys, appid.sys BYOVD) from an anti-cheat / EDR telemetry and hardening standpoint. Consolidated into this public repo in August 2026.
 
 ### Projects
 
 | Attribution              | Repo                                                                        | Scope                                  |
 | ------------------------ | --------------------------------------------------------------------------- | -------------------------------------- |
 | Original project         | [MalDrvAnalyzer](https://github.com/thexin7/MalDrvAnalyzer)                 | Suspicious-driver triage and kernel RE |
+| Defensive analysis notes | [kernel-cve-analysis](https://github.com/thexin7/kernel-cve-analysis)       | Defensive analysis of public kernel CVEs |
 | Study/reference mirror   | [SandboxiePlus](https://github.com/thexin7/SandboxiePlus)                   | Process isolation research             |
 | Study/reference mirror   | [Sandboxie-Classic](https://github.com/thexin7/Sandboxie-Classic)           | Classic Sandboxie lineage study        |
 | Study/reference mirror   | [Sandbox-AttackSurface](https://github.com/thexin7/Sandbox-AttackSurface)   | Sandbox attack-surface analysis        |
