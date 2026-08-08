@@ -19,6 +19,12 @@ Personal research only — not speaking for any employer.
 
 ---
 
+### 🧪 Featured original work — [MalDrvAnalyzer](https://github.com/thexin7/MalDrvAnalyzer)
+
+My own public project: a **C++ Windows driver-analysis and process-introspection toolkit** used in my professional anti-cheat and product-security work. It walks loaded drivers, classifies suspicious kernel routines, and inspects processes to build **detection telemetry and validation tests** — strictly for authorized defensive analysis on corporate, isolated-lab infrastructure.
+
+It deliberately studies how offensive techniques present to defenders (callback tampering, DKOM, token manipulation, hypervisor-assisted concealment, sandbox escape) so the observable behavior can be **detected, verified, and mitigated**. I do **not** publish offensive tooling or attack third-party systems: the output is detections, mitigations, and hardening guidance.
+
 ### Projects
 
 | Attribution              | Repo                                                                        | Scope                                  |
